@@ -1,0 +1,28 @@
+
+.gradient {
+  background: linear-gradient(120deg,#6497b1, #036eb4);
+  color: #fff;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+.fixed-bottom, .fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.margindown {
+  margin-bottom: 50px;
+}
+
